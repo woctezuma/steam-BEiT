@@ -59,7 +59,7 @@ Alternatively, you can find the data as `v0.1` in the ["Releases" section][githu
 [download_steam_webdataset-notebook]: <https://colab.research.google.com/github/woctezuma/steam-BiT/blob/main/download_steam_webdataset.ipynb>
 [match_steam_banners_with_BEiT-notebook]: <https://colab.research.google.com/github/woctezuma/steam-BEiT/blob/main/match_steam_banners_with_BEiT.ipynb>
 
-[openai-dalle]: <>
+[openai-dalle]: <https://github.com/openai/dall-e>
 
 [github-releases]: <https://github.com/woctezuma/steam-BiT/releases>
 [img2dataset-github]: <https://github.com/rom1504/img2dataset>
