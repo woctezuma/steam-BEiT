@@ -9,7 +9,7 @@ Image similarity is assessed by the cosine similarity between image features enc
 ## Model
 
 BEiT is a Vision Transformer (ViT):
-1. pre-trained with self-supervision (using image patches, as well as "visual tokens" from [OpenAI's DALL-E][openai-dalle]) on ImageNet-21k,
+1. pre-trained with self-supervision (using patches, and "visual tokens" from [OpenAI's DALL-E][openai-dalle]) on ImageNet-21k,
 2. then fine-tuned for classification on ImageNet-21k (14M images with ~21k classes),
 3. finally fine-tuned for classification on ImageNet-1k (1.28M images with 1000 classes).
 
