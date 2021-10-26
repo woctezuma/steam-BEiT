@@ -20,6 +20,8 @@ Pre-trained models are available at [HuggingFace][hugging-face-models], respecti
 
 Larger models are available by changing a keyword in their name: `large` (1.2 GB) instead of `base` (400 MB).
 
+NB: [Table 9][ms-beit-table9] shows that BEiT performs worse than DINO in terms of linear probing on ImageNet-1k.
+
 ## Data
 
 Data consists of **vertical** Steam banners (300x450 resolution), resized to 256x384 resolution.
@@ -68,6 +70,7 @@ Alternatively, you can find the data as `v0.1` in the ["Releases" section][githu
 [hugging-face-doc]: <https://huggingface.co/transformers/master/model_doc/beit.html>
 [ms-beit-code]: <https://github.com/microsoft/unilm/tree/master/beit>
 [ms-beit-paper]: <https://arxiv.org/abs/2106.08254>
+[ms-beit-table9]: <https://github.com/microsoft/unilm/issues/419#issuecomment-951632861>
 
 [banner-repository-generic]: <https://github.com/woctezuma/match-steam-banners>
 [banner-repository-BiT]: <https://github.com/woctezuma/steam-BiT>
